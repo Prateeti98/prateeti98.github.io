@@ -24,8 +24,13 @@
 
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="col-sm-8">
+        <!-- Published?-->
+        {%- if !entry.published %}
+          {% assign suffix = "[Under Review]" %}
+        {% endif %}
         <!-- Title -->
-        <div class="title">{{entry.title}}</div>
+        <div class="title"><a href="{{entry.url}}">{{entry.title}}</a><small><i> {{suffix}}</i></small></div>
+        {% assign suffix = "" %}
         <!-- Author -->
         <div class="author">
         {% assign author_array_size = entry.author_array | size %}
