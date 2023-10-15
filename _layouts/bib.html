@@ -2,6 +2,7 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
+        <!--
         <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
@@ -21,13 +22,11 @@
           {%- endif -%}
         {%- endif -%}
         </div>
+      -->
 
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="col-sm-8">
-        <!-- Published?-->
-        {%- if !entry.published %}
-          {% assign suffix = "[Under Review]" %}
-        {% endif %}
+        
         <!-- Title -->
         <div class="title"><a href="{{entry.url}}">{{entry.title}}</a><small><i> {{suffix}}</i></small></div>
         {% assign suffix = "" %}
@@ -108,6 +107,10 @@
         </div>
 
         <!-- Journal/Book title and date -->
+        <!-- Published?-->
+        {%- if !entry.published %}
+        {%- capture entrytype -%}<em>{{"Preprint"}}</em>{%- endcapture -%}
+        {%- else -%}
         {% assign proceedings = "inproceedings,incollection" | split: ','%}
         {% assign thesis = "thesis,mastersthesis,phdthesis" | split: ','%}
         {% if entry.type == "article" -%}
@@ -118,6 +121,7 @@
           {%- capture entrytype -%}<em>{{entry.school}}</em> {%- endcapture -%}
         {%- else -%}
           {%- capture entrytype -%}{%- endcapture -%}
+        {%- endif -%}
         {%- endif -%}
         {%- if entry.month -%}
           {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
