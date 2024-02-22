@@ -54,10 +54,18 @@ social: true  # includes social icons at the bottom of the page
 #In the past, I've collaborated with Microsoft ads teams, <a href='https://ispirt.in/'>iSpirit</a>, and <a href='https://sahamati.org.in/'>Sahamati</a> to develop hardware-assisted privacy constructs for <a href = 'https://github.com/Sahamati/fiu-data-governance'>Trustworthy Data Governance</a>. Prior to MSRI, I was an Undergraduate Research Assistant at <a href=''>Aalto University</a>, Finland, where I worked on facilitating secure cross-platform interactions between Distributed Ledgers via <a href=''>Interledger</a>, post a brief internship at <a href=''>Turku University</a> that focused on efficient recursive Bayesian estimation for reconstructing sensor data in resource-constrained devices. learning under privacy constraints and online learning, with a particular focus on causal bandits. 
 
 #More recently, I've been working with <a href='https://sinhagaurav.github.io/'>Gaurav Sinha</a> on identifying optimal soft interventions in causal bandits.
+
+# the information-theoretic interpretations of privacy in machine learning, with a particular focus on deriving tight query-complexity lower bounds for adaptive attack strategies against private learners, and designing statistically and computationally efficient algorithms for differentially private synthetic data.
+
+#addressing fundamental questions in responsible machine learning, by applying tools and techniques from information theory, statistical signal processing, and probability theory. 
+
 ---
 
-Hi! I'm a Research Intern at Microsoft Research India (MSRI), where I'm advised by <a href = 'https://www.microsoft.com/en-us/research/people/satya/'>Satya Lokam</a>. My work revolves around the information-theoretic interpretations of privacy in machine learning, with a particular focus on deriving tight query-complexity lower bounds for adaptive attack strategies against private learners, and designing statistically and computationally efficient algorithms for differentially private synthetic data.
+Hi! I'm a Research Intern at Microsoft Research India (MSRI), where I'm advised by <a href = 'https://www.microsoft.com/en-us/research/people/satya/'>Satya Lokam</a>. My work focuses on rigorously quantifying the cost of privacy, communication, and robustness constraints in statistical learning problems. 
 
-In the past, I've collaborated with Microsoft Research Cambridge and Ads teams on privacy-preserving computations for <a href = 'https://github.com/Sahamati/fiu-data-governance'>Trustworthy Data Governance</a> and <a href='https://learn.microsoft.com/en-us/azure/confidential-computing/multi-party-data'>Confidential Clean Rooms</a>. Prior to MSRI, I was an intern at Amazon in the Payments division, and an Undergraduate Researcher at Aalto University, where I worked on blockchains and applied cryptography.
+In the past, I've collaborated with Microsoft Research Cambridge and Ads teams on privacy-preserving computations for <a href = 'https://github.com/Sahamati/fiu-data-governance'>Trustworthy Data Governance</a> and <a href='https://learn.microsoft.com/en-us/azure/confidential-computing/multi-party-data'>Confidential Clean Rooms</a>. Prior to MSRI, I was an intern at Amazon in the Payments division, and a Research Assistant at Aalto University, where I worked on blockchains and applied cryptography.
 
-I am interested in addressing fundamental questions in responsible machine learning, by applying tools and techniques from information theory, statistical signal processing, and probability theory. 
+I am interested in addressing fundamental questions that arise in practical deployments of learning algorithms, by applying tools and techniques from information theory, high dimensional statistics, and probability theory. 
+
+
+
