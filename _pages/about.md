@@ -61,13 +61,13 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
-Hi! I'm a Research Intern at Microsoft Research India (MSRI), where I'm advised by <a href = 'https://www.microsoft.com/en-us/research/people/satya/'>Satya Lokam</a>. My work focuses on rigorously quantifying the cost of privacy, communication, and robustness constraints in statistical learning problems. 
+Hi! I'm a Research Intern at Microsoft Research India (MSRI), where I'm advised by <a href = 'https://www.microsoft.com/en-us/research/people/satya/'>Satya Lokam</a>. My work focuses on rigorously quantifying the cost of privacy, communication, and memory constraints in statistical learning problems. 
 
-I've also worked with Microsoft Research Cambridge and Ads teams to develop privacy-preserving solutions for trusted data governance in the Indian finance sector, that later became part of the <a href = 'https://github.com/Sahamati/fiu-data-governance'> Data Empowerment and Protection Architecture (DEPA)</a> standard in India. 
+I've also worked with Microsoft Research Cambridge to develop privacy-preserving solutions for financial applications, that later became part of the <a href = 'https://github.com/Sahamati/fiu-data-governance'> Data Empowerment and Protection Architecture (DEPA)</a> standard in India. 
 
-Prior to MSRI, I was an undergraduate intern at Amazon India, as part of the Payments division. In my junior year, I served as a Research Assistant at Aalto University, with particular focus on decentralized exchanges and applied cryptography, after interning at the University of Turku, where I worked on probabilistic models for missing data imputation in low resource settings. 
+Prior to MSRI, I was an undergraduate intern in the Payments team at Amazon India. In my junior year, I served as a Research Assistant at Aalto University, where I worked at the intersection of decentralized exchanges and applied cryptography, after interning at the University of Turku, where I developed probabilistic models for missing data imputation in low-resource settings.
 
-I am interested in addressing computational and statistical challenges that arise in modern machine learning, by applying tools and techniques from information theory, high dimensional statistics, and probability theory. 
+I am interested in addressing computational and statistical challenges that arise in modern machine learning and inference tasks, by applying tools and techniques from information theory, high dimensional statistics, and probability theory. 
 
 
 
